@@ -1,0 +1,11 @@
+# Ignore compiled binaries and executables
+a.out
+*.o
+*.exe
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore macOS system files
+.DS_Store
