@@ -7,12 +7,14 @@ It serves as a personal workspace for tracking assignments, notes, experiments, 
 
 ## 📂 Repository Structure
 
+```text
 cs50-2025/
 ├── final_projects/
 ├── labs/
 ├── problem_sets/
 ├── notes/
 └── .gitignore
+```
 
 - **final_projects/** → Capstone or major projects completed in the course  
 - **labs/** → Weekly lab exercises and hands-on practice  
