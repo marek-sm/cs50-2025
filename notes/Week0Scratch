@@ -1,0 +1,71 @@
+# Lecture 0 - Scratch
+
+- Computer Science is the Study of Information
+  - More specifically, it is about problem solving
+    - Global applicability
+- How to process the input to reach an output
+- Unary (base-1) - A symbol representing 1 is repeated N times
+  - Each finger up represents 1
+- Binary (base-2) - Two distinct states are used to represent N
+  - Whether each finger is down or up is significant (two potential states)
+  - Computers use this system (The binary system that uses 0s and 1s, which are binary digits)
+    - A bit is a binary digit (0 or 1)
+    - We use the decimal system which is base-10 (uses integers from 0 to 9)
+    - A 0 is a light-bulb that is off, a 1 is a light-bulb that is on
+      - Transistors are a real life application of this
+    - The highest number you can count to using the binary system is 2^n - 1 where n is the amount of bulbs / transistors
+      - There are 2^n possibilities from 0 to 2^n - 1
+    - The binary and decimal system are more similar than at first thought
+      - Each digit is an increasing power of 2 instead of 10 in the binary system
+        - 000 = 0, 001 = 1, 010 = 2, 011 = 3, 100 = 4, 101 = 5...
+    - Transistors use voltages to represent "on" or "off"
+    - The binary system is used because having two possibilities using voltages is simpler than having more than two possibilities, as the voltages could get more easily confused, leading to data getting confused
+      - However, ternary computers exist (utilizes 0, 1 and 2)
+    - Because computers only recognize 0s and 1s, letters are assigned to numbers to display them, ex: A is 65, a is 97, b is 98
+      - This is ASCII
+        - Only 8 bits were assigned to ASCII, so not all languages can work with this system, but there is enough memory for English
+      - Unicode has encoding that allow it up to 32 bits of memory, enough for all languages in past, present, and future history
+        - This allows for fun things like emojis, which are simply characters
+    - You use RGB (Red, Green, Blue) to represent color with bits
+      - Each pixel has an amount of bits that tell it which color to use
+        - Usually 3 bytes (24 bits)
+          - For example, the numbers 72, 73, and 33 represent yellow
+    - To represent sound, numbers can correspond to a certain frequency
+- An algorithm is step by step instructions for solving a problem
+  - Correct (but slow) Example: Turn each page one by one until you find John Harvard in a phone book
+  - Incorrect (and still slow) Example: Turn two pages on every page you reach until you find John Harvard (50/50 chance of finding him)
+  - Correct (and fast) Example: Go to the middle of the book then go to the middle of either the left or right, depending on where John Harvard's name is, until you find him
+- Pseudocode is a human-readable descrption of an algorithm's steps that could then be translated into code
+  - The verbs in the pseudocode are functions
+  - The if, else if, and else are conditionals
+  - The questions/different outcomes in the pseudocode are boolean expressions
+  - "Go back to" represents a loop
+    - There cannot be an infinite loop in this algorithm because eventually John Harvard will be on the page (Call him) or he is not (Quit)
+      - An infinite loop is a type of bug
+- Bugs can happen when a programmer of the software does not anticipate an outcome or event
+- Artificial Intelligence Is Important
+  - A chatbot is a popular form of AI (Artificial Intelligence)
+    - It is not realistic to add an almost infinite amount of conditional statements for the chatbot to be able to respond to every question
+      - Instead, the AI decides on what it should say
+        - Done in large language models, implented with neural networks
+          - Created with 0s and 1s and imitates the human brain
+          - Uses probability to output the likely most appropriate answer
+  - CS50 Duck (cs50.ai) is an AI tool allowed in this course that is a very helpful tool
+    - Embedded in VS Code for CS50 (cs50.dev)
+- There are levels of abstraction in Computer Science
+  - The lowest level is 0s and 1s
+  - A higher level is C (a programming language)
+    - While old, it is fast and good at making devices operate quickly
+      - Python is newer and provides more functionality
+- Scratch (scratch.mit.edu) lets you program without knowing any of the syntax
+  - You drag and drop functions (purple)
+  - You can store and use return values
+  - You can use arguments in function calls
+  - You can add additional available functions like you can with Python modules
+  - You can even make your own functions
+
+## Questions
+
+- Why have we not transitioned to using the decimal system or a similar system for computers? Yes, it could be costly and time-intensive, but it would save much space.
+- Why are red, green, and blue the three colors chosen to represent every color? Is it arbitrary or is there more to it?
+- In Oscartime, how did David make Oscar's moving animation? Did he just create multiple sprites of Oscar in different positions and put them in sequence?
